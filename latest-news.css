@@ -1,0 +1,67 @@
+.brand {
+    font-size: 40px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.nav-2 {
+    margin-top: 2vh;
+}
+ul{
+    list-style: none;
+}
+li{
+    font-family: 'Cormorant', serif; 
+    font-size: x-large;
+    font-weight: 450;
+}
+.nvbr {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    list-style: none;
+}
+.nav-link{
+    border-radius: 6px;
+
+}
+.nav-link:hover{
+    text-transform: capitalize;
+    scale: 1.10;
+    background-color: rgba(74, 70, 70, 0.501);
+    transition: scale 1.25s ease-in-out,background-color 2s ease-in-out,border-radius 2s ease-in-out;
+
+}
+.w-btn{
+    height: 5vh;;
+    width: 6vw;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.box1{
+    height: 500px;
+     width: 940px;
+     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2vh;
+}
+.h1{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 5.2vh;
+    border-bottom-style: double;
+}
+#newsAccordion{
+    margin-top: 4vh;
+}
+.footer{
+    text-align: center;
+    margin-top: 3.28vh;
+    height: 25px;
+    width: 100vw;
+    background-color:#212529;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}

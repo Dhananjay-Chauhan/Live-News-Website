@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+.brand {
+    font-size: 40px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.nav-2 {
+    margin-top: 2vh;
+}
+ul{
+    list-style: none;
+}
+li{
+    font-family: 'Cormorant', serif; 
+    font-size: x-large;
+    font-weight: 450;
+}
+.nvbr {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    list-style: none;
+}
+.nav-link{
+    border-radius: 6px;
+
+}
+.nav-link:hover{
+    text-transform: capitalize;
+    scale: 1.10;
+    background-color: rgba(74, 70, 70, 0.501);
+    transition: scale 1.25s ease-in-out,background-color 2s ease-in-out,border-radius 2s ease-in-out;
+
+}
+.w-btn{
+    height: 5vh;;
+    width: 6vw;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.footer{
+    text-align: center;
+    margin-top:13.89vh;
+    height: 25px;
+    width: 100vw;
+    background-color:#212529;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+.cont{
+    text-align:center;
+    background:linear-gradient(141deg, rgb(255, 255, 255) 25%, rgb(251, 251, 251) 40%, rgb(249, 247, 247) 55%); 
+    color:rgb(62, 59, 59);
+    font-family:'Roboto';
+    font-weight:300;
+    font-size:32px;
+    padding-top:4vh;
+    height:15vh;
+    overflow:hidden;
+    /* -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0,0,0);  */
+  } 
+  .div-bod {
+    display:inline-block;
+    overflow:hidden;
+    font-family:'Roboto';
+    white-space:nowrap;
+  }
+
+
+#d1{ 
+  animation: showup 7s infinite;
+}
+
+#d2 {
+  width:0px;
+  animation: reveal 7s infinite;
+}
+
+#d2 span {
+  margin-left:-355px;
+  animation: slidein 7s infinite;
+}
+
+@keyframes showup {
+    0% {opacity:0;}
+    20% {opacity:1;}
+    80% {opacity:1;}
+    100% {opacity:0;}
+}
+
+@keyframes slidein {
+    0% { margin-left:-800px; }
+    20% { margin-left:-800px; }
+    35% { margin-left:0px; }
+    100% { margin-left:0px; }
+}
+
+@keyframes reveal {
+    0% {opacity:0;width:0px;}
+    20% {opacity:1;width:0px;}
+    30% {width:355px;}
+    80% {opacity:1;}
+    100% {opacity:0;width:355px;}
+}
+@media screen and (max-width:410px) {
+    #d2{
+        display:inline-block;
+        overflow:hidden;
+        font-family:'Roboto';
+        white-space:wrap;
+      }
+}
+/*  */
+@import url("https://fonts.googleapis.com/css?family=Luckiest+Guy");
+/* BODY */
+.cont2 {
+  /* position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0; */
+  width: 100%;
+  height: 20vh;
+  margin-top: 4vh;
+  /* background-color: skyblue; */
+  /* background-image: -webkit-linear-gradient(90deg, skyblue 0%, steelblue 100%); */
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  overflow: hidden;
+  font-family: "Luckiest Guy", cursive;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: transparent;
+}
+/* CLOUDS */
+.cont2:before {
+  content: "";
+  margin: auto;
+  border-radius: 100%;
+  background: transparent;
+  display: block;
+
+}
+/* JUMP */
+.cont2 h1 {
+  cursor: default;
+
+  width: 100%;
+  height: 20vh;
+  margin: auto;
+  display: block;
+  text-align: center;
+}
+
+.cont2 h1 span {
+  position: relative;
+  top: 20px;
+  display: inline-block;
+  animation: bounce 0.3s ease infinite alternate;
+  font-size: 65px;
+  color:#3e3b3b ;
+}
+
+.cont2 h1 span:nth-child(2) {
+  animation-delay: 0.1s;
+}
+
+.cont2 h1 span:nth-child(3) {
+  animation-delay: 0.2s;
+}
+
+.cont2 h1 span:nth-child(4) {
+  animation-delay: 0.3s;
+}
+
+.cont2 h1 span:nth-child(5) {
+  animation-delay: 0.4s;
+}
+
+.cont2 h1 span:nth-child(6) {
+  animation-delay: 0.5s;
+}
+
+.cont2 h1 span:nth-child(7) {
+  animation-delay: 0.6s;
+}
+
+.cont2 h1 span:nth-child(8) {
+  animation-delay: 0.2s;
+}
+
+.cont2 h1 span:nth-child(9) {
+  animation-delay: 0.3s;
+}
+
+.cont2 h1 span:nth-child(10) {
+  animation-delay: 0.4s;
+}
+
+.cont2 h1 span:nth-child(11) {
+  animation-delay: 0.5s;
+}
+
+.cont2 h1 span:nth-child(12) {
+  animation-delay: 0.6s;
+}
+
+.cont2 h1 span:nth-child(13) {
+  animation-delay: 0.7s;
+}
+
+.cont2 h1 span:nth-child(14) {
+  animation-delay: 0.8s;
+}
+
+/* ANIMATION */
+@keyframes bounce {
+  100% {
+    top: -20px;
+    text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc, 0 3px 0 #ccc, 0 4px 0 #ccc,
+      0 5px 0 #ccc, 0 6px 0 #ccc, 0 7px 0 #ccc, 0 8px 0 #ccc, 0 9px 0 #ccc,
+      0 50px 25px rgba(0, 0, 0, 0.2);
+  }
+}
+
+
+/*  */
+.contacts-icon{
+    margin-top: 8vh;
+    display: grid;
+    grid-gap: 9vh 10vw;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: auto auto auto;
+
+}
+
+.fab:hover {
+    opacity: 0.8;
+}
+.fab{
+    border-radius: 10px;
+    width: 8vw;
+}
+.fa{
+    border-radius: 10px;
+    width: 8.5vw;
+}
+.fa-linkedin {
+background: #000000;
+color: white;
+}
+.fa-linkedin {
+background: #000000;
+color: white;
+}
+.fa-github {
+    background: #000000;
+    color: white;
+}
+.fa-envelope{
+    background: #000000;
+    color: white;
+
+}
+
+
+
