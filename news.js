@@ -28,7 +28,7 @@ const xhr = new XMLHttpRequest();
 xhr.open('GET', `https://newsapi.org/v2/top-headlines?country=in&apiKey=3d84c631a8ed4e18bef1ee840cef7f64`, true);
  // What to do when response is ready
 xhr.onload = function () {
-    if(this.status === 1000){
+    if(this.status === 200){
         // console.log(this.responseText);
         let json = JSON.parse(this.responseText);
         
