@@ -25,7 +25,7 @@ let newsAccordion = document.getElementById('newsAccordion');
 
 const xhr = new XMLHttpRequest();
 // USE THIS FOR get REQUEST
-xhr.open('GET', `https://newsapi.org/v2/top-headlines?country=in&apiKey=3d84c631a8ed4e18bef1ee840cef7f64`, true);
+xhr.open('GET', `https://newsapi.org/v2/top-headlines?country=in&apiKey=3d84c631a8ed4e18bef1ee840cef7f6`, true);
  // What to do when response is ready
 xhr.onload = function () {
     if(this.status === 200){
